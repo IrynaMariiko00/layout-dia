@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){var e=document.querySelector(".slider__switch--prev"),t=document.querySelector(".slider__switch--next"),n=document.querySelectorAll(".slider__photo"),c=0;function o(){n.forEach(function(e,t){t===c?e.style.display="block":e.style.display="none"})}e.addEventListener("click",function(){c>0?c-=1:c=n.length-1,o()}),t.addEventListener("click",function(){c<n.length-1?c+=1:c=0,o()}),o()});
+//# sourceMappingURL=index.065880fb.js.map
